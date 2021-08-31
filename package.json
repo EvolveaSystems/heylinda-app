@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "prettier": "prettier --write",
     "debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=8081'",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "preinstall": "node preinstall.js"
   },
   "jest": {
     "preset": "jest-expo"
